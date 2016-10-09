@@ -1,14 +1,16 @@
 @charset "utf-8";
+@import "globals";
 @import "normalize";
+@import "landing";
 
 body {
-  text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //text-align: center;
+  //font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
 
 h1 {
-  color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //color: rgba(0,0,0,0.5);
+  //font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
