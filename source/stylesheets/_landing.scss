@@ -1,0 +1,94 @@
+
+
+body {
+  background-color: 'black';
+}
+
+#main {
+  position: relative;
+  height: $landing_main_height;
+  width: 100%;
+
+  #logo_container {
+    //margin-top: 50px;
+    margin-left: $landing_copy_left_margin;
+
+    #logo_image {
+      float: left;
+      margin-right: 10px;
+    }
+    #logo_text {
+      //float: left;
+    }
+  }
+
+  #intro_copy {
+    z-index: 2;
+    width: 30%;
+    float: left;
+    margin-left: $landing_copy_left_margin;
+    margin-top: $landing_copy_top_margin;
+  }
+
+  #phones_image {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  #bot_image {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-left: $landing_copy_left_margin;
+  }
+
+}
+
+#upsell {
+  position: relative;
+  height: 350px;
+  background-color: #777777;
+  color: #00FF00;
+  #upsell_copy_container {
+    width: 30%;
+    margin-left: 20%;
+    float: left;
+    margin-top: 70px;
+    font-weight: normal;
+  }
+  #upsell_large_image {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+#details {
+  text-align: center;
+  margin-bottom: 100px;
+  #details_header {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .detail {
+    //float:left;
+    display: inline-block;
+    width: 28%;
+  }
+}
+
+#last_cta {
+  text-align: center;
+  p {
+    display: inline-block;
+  }
+}
+
+#footer {
+  height: 80px;
+  background-color: #554F48;
+  color: #7C736C;
+}
