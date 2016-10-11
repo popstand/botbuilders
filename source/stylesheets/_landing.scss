@@ -6,7 +6,7 @@ body {
 
 #main {
   position: relative;
-  height: $landing_main_height;
+  min-height: $landing_main_height;
   width: 100%;
 
   #logo_container {
@@ -75,8 +75,8 @@ body {
   }
   .detail {
     //float:left;
-    display: inline-block;
-    width: 28%;
+    //display: inline-block;
+    //width: 28%;
   }
 }
 

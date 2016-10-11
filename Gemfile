@@ -13,5 +13,10 @@ gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
 
+# this are used for running middleman apps on heroku
 gem 'rack-contrib'
+# this is just the server of preference
 gem 'puma'
+
+# because Middleman 4 doesn't support asset pipeline anymore
+gem 'middleman-sprockets', '~> 4.0.0.rc.1'

@@ -5,12 +5,12 @@ title: BotBuilders, We Build Your Bots
 <div class="wrapper">
 
 
-  <div id="main">
+  <div id="main" class="">
     <div id="logo_container">
       <img id="logo_image" src="<%= lorem.image('25x25') %>" />
       <h2 id="logo_text">BotBuilders</h2>
     </div>
-    <div id="intro_copy">
+    <div id="intro_copy" class="">
       <h1>We Build Bots</h1>
       <p><%= lorem.paragraph %></p>
       <button>Build Your Bot Now</button>
@@ -31,23 +31,25 @@ title: BotBuilders, We Build Your Bots
 
 
 
-  <div id="details">
-    <p id=details_header>The Sky Is The Limit</p>
-    <div class="detail">
-      <img src="<%= lorem.image('300x130') %>" />
-      <h4>This Is A Title</h4>
-      <p><%= lorem.words 13 %></p>
-    </div>
-    <div class="detail">
-      <img src="<%= lorem.image('300x130') %>" />
-      <h4>This Is A Title</h4>
-      <p><%= lorem.words 13 %></p>
-    </div>
-    <div class="detail">
-      <img src="<%= lorem.image('300x130') %>" />
-      <h4>This Is A Title</h4>
-      <p><%= lorem.words 13 %></p>
-    </div>
+  <div id="details" class="container">
+    <div class="row">
+      <p id=details_header>The Sky Is The Limit</p>
+      <div class="detail col-lg-4">
+        <img src="<%= lorem.image('300x130') %>" />
+        <h4>This Is A Title</h4>
+        <p><%= lorem.words 13 %></p>
+      </div>
+      <div class="detail col-lg-4">
+        <img src="<%= lorem.image('300x130') %>" />
+        <h4>This Is A Title</h4>
+        <p><%= lorem.words 13 %></p>
+      </div>
+      <div class="detail col-lg-4">
+        <img src="<%= lorem.image('300x130') %>" />
+        <h4>This Is A Title</h4>
+        <p><%= lorem.words 13 %></p>
+      </div>
+    </div> <!-- end row -->
 
   </div>
 
